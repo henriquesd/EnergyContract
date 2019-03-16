@@ -1,0 +1,14 @@
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\bin\Debug\netcoreapp2.2\EnergyContractCrud.deps.json
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\bin\Debug\netcoreapp2.2\EnergyContractCrud.runtimeconfig.json
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\bin\Debug\netcoreapp2.2\EnergyContractCrud.runtimeconfig.dev.json
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\bin\Debug\netcoreapp2.2\EnergyContractCrud.dll
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\bin\Debug\netcoreapp2.2\EnergyContractCrud.pdb
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.RazorAssemblyInfo.cache
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.RazorAssemblyInfo.cs
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.AssemblyInfoInputs.cache
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.AssemblyInfo.cs
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.RazorTargetAssemblyInfo.cache
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.dll
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.pdb
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud\obj\Debug\netcoreapp2.2\EnergyContractCrud.csprojAssemblyReference.cache

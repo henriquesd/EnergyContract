@@ -1,0 +1,60 @@
+<div class="jumbtron">
+    <h1 class="display-4 text-center">Lista dos Contratos</h1>
+</div>
+
+<div class="col-md-12">
+    <button type="button" class="btn btn-success" (click)="addContract()">Novo Contrato</button>
+    <hr/>
+ 
+
+    <div class="form-group">
+        <label for="ClientName">Pesquisar</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text bg-white">
+                <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <input type="text"  [(ngModel)]="searchTerm" (ngModelChange)="search()"/>
+
+          <!-- <input type="text" id="search" onkeyup="search()" placeholder="Pesquisar..." title="Digite algo para pesquisar"> -->
+        </div>
+      </div>
+
+      
+    <table class="table table-condensed table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+            <th>Nome do Cliente</th>
+            <th>Tipo do Contrato</th>
+            <th>Quantidade negociada</th>
+            <th>Valor negociado</th>
+            <th>Mês/Ano do início do contrato</th>
+            <th>Duração em meses do contrato</th>
+            <th>Contrato em PDF</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let ct of service.list">
+            <td>{{ct.ClientName}}</td>
+            <td>{{ct.Type}}</td>
+            <td>{{ct.Quantity}}</td>
+            <td>{{ct.Amount}}</td>
+            <td>{{ct.Month}} / {{ct.Year}}</td>
+            <td>{{ct.DurationMonths}}</td>
+            <!-- <td>{{ct.PdfFile}}</td> -->
+            <td>
+                <a title="Baixar Contrato" (click)="downloadPdf(ct.PdfFile)">
+                    <i class="fas fa-file-download"></i> Download
+                </a>
+            </td>
+            <td class="action-button-column">
+                <a title="Editar" (click)="editContract(ct.Id)"><i class="fas fa-edit"></i> </a>
+                <a title="Excluir"  (click)="deleteContract(ct.Id)" style="margin-left: 12px;"><i class="fas fa-trash-alt"></i> </a>
+            </td>
+          </tr>
+        </tbody>
+
+    </table>
+</div>

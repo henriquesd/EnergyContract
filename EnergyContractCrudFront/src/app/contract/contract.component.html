@@ -1,0 +1,108 @@
+<div class="jumbtron">
+    <h1 class="display-4 text-center">Contrato</h1>
+</div>
+
+<form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)" class="col-md-5 form">
+    <input type="hidden" name="Id" [value]="service.formData.Id">
+   
+    <div class="form-group">
+      <label for="ClientName">Nome do Cliente</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text bg-white">
+            <i class="fas fa-user-circle" [class.green-icon]="ClientName.valid" [class.red-icon]="ClientName.invalid && ClientName.touched"></i>
+          </div>
+        </div>
+        <input name="ClientName" #ClientName="ngModel" [(ngModel)]="service.formData.ClientName" class="form-control"
+          placeholder="Informe o Nome do Cliente" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="Type">Tipo do Contrato</label>
+      <select class="select form-control" #Type="ngModel" [(ngModel)]="service.formData.Type"
+            id="Type" name="Type">
+          <!-- <option value="" selected hidden disabled>Selecione um tipo de contrato</option> -->
+          <option value="1">Compra</option>
+          <option value="2">Venda</option>
+      </select>
+     </div>
+
+    <div class="form-group">
+      <label for="Quantity">Quantidade Negociada</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text bg-white">
+              <i class="fas fa-plus" [class.green-icon]="Quantity.valid" [class.red-icon]="Quantity.invalid && Quantity.touched"></i>
+          </div>
+        </div>
+        <input name="Quantity" #Quantity="ngModel" [(ngModel)]="service.formData.Quantity" 
+        class="form-control" placeholder="Informe a Quantidade Negociada" required type="number">
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label for="Amount">Valor Negociado</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text bg-white">
+              <i class="fas fa-dollar-sign" [class.green-icon]="Amount.valid" [class.red-icon]="Amount.invalid && Amount.touched"></i>
+            </div>
+          </div>
+          <input name="Amount" #Amount="ngModel" [(ngModel)]="service.formData.Amount" 
+          class="form-control" placeholder="Informe o Valor Negociado" required type="number">
+        </div>
+      </div>
+    
+      <div class="form-row">
+        <div class="form-group">
+          <label for="InitialDate">Mês/Ano do início do contrato</label>
+          
+          <div class="input-group-prepend">
+            <div class="form-group">
+              <div class="input-group">
+                <input name="Month" #Month="ngModel" [(ngModel)]="service.formData.Month" class="form-control "
+                  placeholder="MM" required type="number">
+              </div>
+            </div>
+            <span style="margin-left: 10px; margin-right: 10px;"> / </span>
+            <div class="form-group">
+                <div class="input-group">
+                  <input name="Year" #Year="ngModel" [(ngModel)]="service.formData.Year" class="form-control"
+                    placeholder="YYYY" required type="number">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <div class="form-group">
+        <label for="DurationMonths">Duração em Meses do Contrato</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text bg-white">
+              <i class="fas fa-calendar-alt" [class.green-icon]="DurationMonths.valid" [class.red-icon]="DurationMonths.invalid && DurationMonths.touched"></i>
+            </div>
+          </div>
+          <input name="DurationMonths" #DurationMonths="ngModel" [(ngModel)]="service.formData.DurationMonths" 
+          class="form-control" placeholder="Informe a Duração em Meses do Contrato" required type="number">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="DurationMonths">Contrato</label>
+        <div class="input-group">
+          <input type="file" (change)="saveFile($event.target.files)" placeholder="Upload do Contrato" accept=".pdf">
+        </div>
+      </div>
+    
+    <div class="form-group">
+      <div class="row">
+        <button class="btn btn-success btn-lg btn-block col-md-4"
+            type="submit" [disabled]="form.invalid">Salvar</button>
+        <button type="button" class="btn btn-warning btn-lg col-md-4"
+             (click)="returnToList()">Cancelar</button>
+    </div>
+  </div>
+  </form>
+  

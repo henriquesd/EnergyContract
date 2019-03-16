@@ -1,0 +1,13 @@
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\EnergyContractCrud.Domain.deps.json
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\EnergyContractCrud.Domain.dll
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\EnergyContractCrud.Domain.pdb
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\obj\Debug\netstandard2.0\EnergyContractCrud.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\obj\Debug\netstandard2.0\EnergyContractCrud.Domain.AssemblyInfoInputs.cache
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\obj\Debug\netstandard2.0\EnergyContractCrud.Domain.AssemblyInfo.cs
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\obj\Debug\netstandard2.0\EnergyContractCrud.Domain.csproj.CopyComplete
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\obj\Debug\netstandard2.0\EnergyContractCrud.Domain.dll
+C:\Users\Henrique\source\repos\EnergyContractCrud\EnergyContractCrud.Domain\obj\Debug\netstandard2.0\EnergyContractCrud.Domain.pdb
