@@ -30,6 +30,12 @@ Para executar o projeto, execute o comando: ng serve -o
 
 ------------------------------------------------------------------------------------
 
+Angular CLI: 7.3.6 / 7.3.5
+
+Node: 8.11.4
+
+------------------------------------------------------------------------------------
+
 # EnergyContract
 Project using .NET Core 2, EF Core, Angular7 and SQL Server database
 
@@ -61,3 +67,9 @@ npm install
 npm install -g @angular/cli
 
 To execute the project, execute: ng serve -o
+
+------------------------------------------------------------------------------------
+
+Angular CLI: 7.3.6 / 7.3.5
+
+Node: 8.11.4
